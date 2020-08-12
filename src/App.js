@@ -8,13 +8,13 @@ import './App.css';
 
 function App() {
   
-  const [roomName, setRoomName ]  = useState({
-    roomName : 'evans-super-awesomely-secret-meeting-9238233h42938rhfuswefb32r9hj'
-  }
+  const [roomName, setRoomName ]  = useState(
+    'evans-super-awesomely-secret-meeting-9238233h42938rhfuswefb32r9hj'
+  
   )
-  const [userFullName, setFullName] = useState({
-    userName: 'Evan the mighty SNACKO'
-  })
+  const [userFullName, setFullName] = useState(
+    'Evan the mighty SNACKO'
+  )
 
   useEffect(()=> {
     jitsiMeetFrame();
